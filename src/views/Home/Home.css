@@ -1,0 +1,15 @@
+.treehouse {
+  max-width: 20vw;
+}
+
+.enter {
+  background: rgb(254, 240, 174);
+  padding: 10px 20px;
+  color: rgb(1, 114, 251) !important;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.enter:hover {
+  background-color: rgb(129, 210, 97);
+}

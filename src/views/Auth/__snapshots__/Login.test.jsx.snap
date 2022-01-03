@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should allow the user to log in 1`] = `
+<div>
+  <h3>
+    You must log in to view the page at 
+    /
+  </h3>
+  <form
+    class="loginForm"
+  >
+    <label
+      for="email"
+    >
+      Email
+    </label>
+    <input
+      id="email"
+      name="email"
+      type="email"
+      value=""
+    />
+     
+    <label
+      for="password"
+    >
+      Password
+    </label>
+    <input
+      id="password"
+      name="password"
+      type="password"
+      value=""
+    />
+    <button
+      aria-label="Sign In"
+      type="submit"
+    >
+      Sign in
+    </button>
+  </form>
+</div>
+`;

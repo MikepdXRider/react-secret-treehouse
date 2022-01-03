@@ -1,0 +1,24 @@
+.loginForm {
+  max-width: 20vw;
+  display: grid;
+  grid: repeat(4, 1fr) / repeat(2, 1fr);
+  gap: 1rem;
+  align-items: center;
+}
+
+label {
+  text-align: right;
+}
+
+button {
+  grid-column: 1 / span 2;
+  grid-row: 3 / span 2;
+  height: 60%;
+  border-radius: 5px;
+  font-size: 1.1rem;
+  cursor: pointer;
+}
+
+.error {
+  color: rgb(253, 71, 85);
+}

@@ -1,0 +1,10 @@
+.signOut {
+  background-color: #ffce01;
+  border: 1px solid #fcba12;
+  color: #f24501;
+  font-size: 1.2rem;
+  padding: 7px 15px;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin: 1.5rem 0;
+}

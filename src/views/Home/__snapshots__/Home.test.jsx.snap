@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render the home page 1`] = `
+<div>
+  <img
+    alt="Treehouse"
+    class="treehouse"
+    src="/path/image"
+  />
+  <h1>
+    <a
+      class="enter"
+      href="/treehouse"
+    >
+      Enter Treehouse
+    </a>
+  </h1>
+  <a
+    href="/treehouse/members"
+  >
+    See who's in the Treehouse
+  </a>
+</div>
+`;
