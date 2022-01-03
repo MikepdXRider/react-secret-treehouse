@@ -24,11 +24,11 @@ However, it's a bit buggy in its current form! We need to make some adjustments 
 
 ### Acceptance Criteria
 
-- The fields on the login form update when typed in
-- The login form allows users to sign in based on the credentials stored in the `.env` file
-  - If the credentials matched (ie. `auth.login` returned `true`), then redirect to the URL stored in `location.state.from`
-  - If `auth.login` fails, set an error message to display to the user
-- Only authenticated (signed in) users can view the `/treehouse/members` page
+- ✔ The fields on the login form update when typed in
+- ✔ The login form allows users to sign in based on the credentials stored in the `.env` file
+  - ✔ If the credentials matched (ie. `auth.login` returned `true`), then redirect to the URL stored in `location.state.from`
+  - ✔ If `auth.login` fails, set an error message to display to the user
+- ✔ Only authenticated (signed in) users can view the `/treehouse/members` page
 - Existing tests pass
 
 ### Rubric
